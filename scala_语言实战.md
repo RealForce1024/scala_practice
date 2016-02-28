@@ -27,3 +27,4 @@
 
 # 环境搭建
 # scala初识
+Scala Class = if( Jaded by Java, restless with Ruby ) { Try some Scala }

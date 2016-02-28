@@ -16,7 +16,6 @@ object test {
     printDirFilesWithFilter()
   }
 
-
   /**
    * filesHere
    */
@@ -43,5 +42,11 @@ object test {
     println(1 to 11)
 
   }
+
+  def testArrayAndList(): Unit ={
+    
+  }
+
+
 
 }
