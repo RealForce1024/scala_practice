@@ -11,7 +11,27 @@ object test {
   }
 
   def main(args: Array[String]) {
-    println(add(3,5))
+//    println(add(3,5))
+      printDirFiles()
   }
+
+
+  /**
+   * filesHere
+   */
+  def printDirFiles(): Unit ={
+    var filesHere = (new java.io.File(".")).listFiles()
+    for (file <- filesHere ) {
+      println(file)
+    }
+    //间接访问（不推荐）
+    for (file <- 0 to filesHere.length-1) {
+       println(filesHere(file))
+    }
+
+  }
+
+
+
 
 }
